@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+button{
+    width: fit-content;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+form{
+    width: 60%;
+    background-color: aqua;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form textarea{
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50%;
+}
+
+#container>div{
+    width: 47%;
+    margin-bottom: 40px;
+}
+
+#container>div span{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+}
+
+#container>div span:last-of-type{
+    background-color: red;
+}
+
+#submitBtn{
+    width: fit-content;
+    padding: 10px 15px;
+}
+#modal{
+    background-color: blue;
+    color: white;
+    width: 60%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: auto;
+}
